@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.ec56f10c.css",
-    "main.js": "/MyPortfolio/static/js/main.b48b187c.js",
+    "main.js": "/MyPortfolio/static/js/main.a8a723c5.js",
     "static/media/stars_header.jpg": "/MyPortfolio/static/media/stars_header.98e0fb16676720821442.jpg",
     "static/media/sophie-bluel.png": "/MyPortfolio/static/media/sophie-bluel.115d313bea380c74a3b4.png",
     "static/media/testimonials-bg.jpg": "/MyPortfolio/static/media/testimonials-bg.ed8cf87a9756c473b810.jpg",
@@ -67,10 +67,10 @@
     "static/media/fontello.woff?13439518": "/MyPortfolio/static/media/fontello.75a0066bb4cd6971750a.woff",
     "index.html": "/MyPortfolio/index.html",
     "main.ec56f10c.css.map": "/MyPortfolio/static/css/main.ec56f10c.css.map",
-    "main.b48b187c.js.map": "/MyPortfolio/static/js/main.b48b187c.js.map"
+    "main.a8a723c5.js.map": "/MyPortfolio/static/js/main.a8a723c5.js.map"
   },
   "entrypoints": [
     "static/css/main.ec56f10c.css",
-    "static/js/main.b48b187c.js"
+    "static/js/main.a8a723c5.js"
   ]
 }
