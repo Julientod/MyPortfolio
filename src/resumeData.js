@@ -26,7 +26,7 @@ let resumeData = {
     "email":"julien.todouawoga@gmail.com",
     "education":[
       {
-        "Formation":"Intégrateur Web",
+        "Formation":"Intégrateur Web (bac+2)",
         "MonthOfPassing":"Oct",
         "YearOfPassing":"2024",
         
