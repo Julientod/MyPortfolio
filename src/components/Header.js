@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
+  listenScrollEvent = e => {
+    if (window.scrollY > 180) {
+      console.log("white")
+      document.querySelector('.nav').className='nav header_dark'
+    } else {
+      console.log("black")
+      document.querySelector('.nav').className='nav header_light'
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
   render() {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       
-      <header id="home">
+      <header id="home" >
          <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
+            
+            <ul id="nav" className="nav header_light ">
                <li className="current"><a className="smoothscroll" href="#home">Accueil</a></li>
                <li><a className="smoothscroll" href="#about">A propos</a></li>
              <li><a className="smoothscroll" href="#resume">Expériences</a></li>
@@ -29,7 +41,7 @@ export default class Header extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" ><i className={item.className}></i></a>
                               </li>
                             )
                           }

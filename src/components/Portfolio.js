@@ -13,9 +13,10 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
+                <a href={`${item.url}`} target="_blank" rel="noreferrer">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={`${item.url}`} target="_blank">
+                    
                       <img src={`${item.imgurl}`} alt='logo projet' className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -23,9 +24,10 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    </a>
+                    
                   </div>
                 </div>
+                </a>
               )
             })
           }

@@ -63,20 +63,20 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Kasa",
-        "description":"",
+        "description":"Pour ce projet il a fallut implémenter le front-end d’une application en utilisant React et React Router. Le projet se concentrait exclusivement sur le front-end, en se basant sur les maquettes et en utilisant des données extraites d'un fichier JSON. Elle nécessitait également l'utilisation de SASS pour gérer le CSS et l'implémentation d’animations CSS",
         "imgurl":logoKaza,
         "url":"https://github.com/Julientod/Projet-Kaza"
       },
       {
         "name":"OhMyFood",
-        "description":"",
+        "description":"Ce projet m'a amener à travailler sur l'interface mobile-first du site d’une start-up. Utiliser Sass, implémenter des animations CSS et versionner le projet avec Git et GitHub. ",
         "imgurl":logoOhMyFood,
         "url":"https://github.com/Julientod/Ohmyfood"
       },
 
       {
         "name":"Sophie-Bluel",
-        "description":"",
+        "description":"Ce projet m'a engager à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. Cela implique la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai créer également une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
         "imgurl":logoSophieBluel,
         "url":"https://github.com/Julientod/Projet-6"
       },

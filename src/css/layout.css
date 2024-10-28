@@ -128,6 +128,16 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 outline: none;
 }
 
+.header_dark {
+   background-color: black;
+
+}
+
+.header_light{
+   background-color: transparent;
+
+}
+
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
@@ -162,7 +172,6 @@ ul#nav li {
 /* Links */
 ul#nav li a {
 
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
    padding: 8px 13px;
@@ -426,9 +435,9 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
+   height: 300px;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -447,7 +456,7 @@ ul#nav li.current a { color: #F06000; }
    left: 0;
    top: 0;
    width: 100%;
-   height: 100%;
+   height: 300px;
 
 	opacity: 0;
 	-moz-opacity: 0;
@@ -733,10 +742,6 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
 
 /* Slider Styles */
 .slides { zoom: 1; }
@@ -935,29 +940,6 @@ footer {
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
 
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
 
 /* social links */
 footer .social-links {
