@@ -27,7 +27,7 @@ let resumeData = {
     "education":[
       {
         "Formation":"Intégrateur Web",
-        "MonthOfPassing":"sept",
+        "MonthOfPassing":"Oct",
         "YearOfPassing":"2024",
         
       },
