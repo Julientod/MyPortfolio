@@ -1,3 +1,8 @@
+import logoKaza from './images/logo_kaza.png';
+import logoOhMyFood from './images/ohmyfood.png';
+import logoSophieBluel from './images/sophie-bluel.png'
+
+
 let resumeData = {
     "name": "TODOUAWOGA Julien",
     "role": "Frontend Developer ",
@@ -59,20 +64,20 @@ let resumeData = {
       {
         "name":"Kasa",
         "description":"",
-        "imgurl":"images/logo_kaza.png",
+        "imgurl":logoKaza,
         "url":"https://github.com/Julientod/Projet-Kaza"
       },
       {
         "name":"OhMyFood",
         "description":"",
-        "imgurl":"images/ohmyfood.png",
+        "imgurl":logoOhMyFood,
         "url":"https://github.com/Julientod/Ohmyfood"
       },
 
       {
         "name":"Sophie-Bluel",
         "description":"",
-        "imgurl":"images/sophie-bluel.png",
+        "imgurl":logoSophieBluel,
         "url":"https://github.com/Julientod/Projet-6"
       },
       
