@@ -6,6 +6,10 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import './css/default.css'
+import './css/layout.css'
+import './css/magnific-popup.css'
+import './css/media-queries.css'
 class App extends Component {
   render() {
     return (
